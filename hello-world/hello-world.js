@@ -6,5 +6,5 @@ var HelloWorld=function(){
 
 };
 
- 
- module.exports = HelloWorld;
+module.exports = HelloWorld;
+
