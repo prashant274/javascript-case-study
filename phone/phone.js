@@ -3,7 +3,7 @@ var PhoneNumber=function(givenNo){
 	
 	this.number=function(){
 		
-		var temp= this.numberGiven.replace(/[^0-9 /w]/g,'');
+		var temp= this.numberGiven.replace(/[^0-9 /w]+/g,'');
 		return temp;
 	}
 	

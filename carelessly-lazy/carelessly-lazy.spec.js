@@ -33,12 +33,12 @@ describe('guy', function () {
     expect(result).toEqual('Sure.');
   });
 
-  xit('talking forcefully', function () {
+  it('talking forcefully', function () {
     var result = guy.hey('Let\'s go make out behind the gym!');
     expect(result).toEqual('Whatever.');
   });
 
-  xit('using acronyms in regular speech', function () {
+  it('using acronyms in regular speech', function () {
     var result = guy.hey('It\'s OK if you don\'t want to go to the DMV.');
     expect(result).toEqual('Whatever.');
   });
@@ -53,7 +53,7 @@ describe('guy', function () {
     expect(result).toEqual('Whoa, chill out!');
   });
 
-  xit('only numbers', function () {
+  it('only numbers', function () {
     var result = guy.hey('1, 2, 3');
     expect(result).toEqual('Whatever.');
   });
@@ -73,7 +73,7 @@ describe('guy', function () {
     expect(result).toEqual('Whoa, chill out!');
   });
 
-  xit('statement containing question mark', function () {
+  it('statement containing question mark', function () {
     var result = guy.hey('Ending with a ? means a question.');
     expect(result).toEqual('Whatever.');
   });

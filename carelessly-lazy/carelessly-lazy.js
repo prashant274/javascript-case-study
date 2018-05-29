@@ -16,7 +16,6 @@ var lazyGuy = function(){
 		}
 		return answer;
 	}
-	
 	this.isContainsUpperCaseAfterZeroIndex =function(passedMessage){
 		return /[A-Z]/.test(passedMessage.slice(1));
 	}
