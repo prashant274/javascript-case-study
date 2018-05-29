@@ -3,7 +3,7 @@ var lazyGuy = require('./carelessly-lazy.js');
 describe('guy', function () {
   var guy = new lazyGuy();
 
-  xit('stating something', function () {
+  it('stating something', function () {
     var result = guy.hey('Tom-ay-to, tom-aaaah-to.');
     expect(result).toEqual('Whatever.');
   });
